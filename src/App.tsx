@@ -1,6 +1,8 @@
+import { googleSignIn } from "./services/firebase";
+
 const App = () => (
   <div>
-    hej
+    <button onClick={() => googleSignIn()}>Sign in</button>
   </div>
 )
 
